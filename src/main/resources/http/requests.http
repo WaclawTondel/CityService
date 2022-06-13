@@ -1,0 +1,28 @@
+### Post 'Poznan"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "Poznan"
+}
+
+### Post "Warszawa"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "Warszawa"
+}
+
+### Post "Berlin"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "Berlin"
+}
+
+### Get all the cities
+GET http://localhost:8080/
